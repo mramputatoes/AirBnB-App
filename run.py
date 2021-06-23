@@ -50,7 +50,7 @@ footer = dbc.Container(
                         html.P(
                             [
                                 html.Span('Allen Dela Virgen', className='mr-2'),
-                                html.A(html.I(className='fab fa-github-square mr-1'), href='https://github.com/matthewblackbu/Airbnb/commits?author=Abdelapv53'), 
+                                html.A(html.I(className='fab fa-github-square mr-1'), href='https://github.com/Abdelapv53'), 
                             ], 
                             className='lead'
                         )
