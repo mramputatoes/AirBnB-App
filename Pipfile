@@ -6,7 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-dash = "==1.9.1"
 dash-bootstrap-components = "*"
 gunicorn = "*"
 plotly = "*"
@@ -16,6 +15,7 @@ numpy = "*"
 sklearn = "*"
 category-encoders = "*"
 dash-daq = "*"
+dash = "*"
 
 [requires]
 python_version = "3"
