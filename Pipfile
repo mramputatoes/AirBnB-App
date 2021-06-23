@@ -16,6 +16,7 @@ numpy = "*"
 sklearn = "*"
 category-encoders = "*"
 dash-daq = "*"
+notebook = "*"
 
 [requires]
 python_version = "3"
