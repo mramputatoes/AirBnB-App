@@ -44,7 +44,7 @@ dbc.themes.YETI
 """
 
 external_stylesheets = [
-    dbc.themes.MINTY,  # Bootswatch theme
+    dbc.themes.SOLAR,  # Bootswatch theme
     # for social media icons
     'https://use.fontawesome.com/releases/v5.9.0/css/all.css',
 ]

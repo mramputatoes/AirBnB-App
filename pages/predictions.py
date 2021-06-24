@@ -190,11 +190,15 @@ column1 = dbc.Col(
 
 column2 = dbc.Col(
     [
-        dcc.Markdown('### Predicted Rental price ($)'),
+        dcc.Markdown('### Predicted Rental price ($)',
+                     style={'textAlign': 'center',
+                            'font-size': 18},),
         daq.LEDDisplay(
             id='prediction-content',
+            style={'textAlign': 'center'},
             size=25,
-            color="#42f55d"),
+            color="#42f55d",
+            backgroundColor="#2b3e50"),
         html.Img(src='assets/airbnb_3.jpeg', className='img-fluid')
     ]
 )
