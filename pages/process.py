@@ -9,13 +9,14 @@ from dash.dependencies import Input, Output
 from app import app
 
 # 1 column layout
-# https://dash-bootstrap-components.opensource.faculty.ai/l/components/layout
 column1 = dbc.Col(
     [
         dcc.Markdown(
             """
-        
+
             ## Process
+
+            Pickled a random forest model and applied to the application.
 
 
             """

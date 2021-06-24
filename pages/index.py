@@ -12,17 +12,20 @@ column1 = dbc.Col(
     [
         dcc.Markdown(
             """
-        
+
             ## Whats your predicted price?
 
-            Do you spend hours trying to price you AirBnB rooms?
+            Do you spend hours trying to price your AirBnB rooms?
 
-            Optimal AirBnB Price Calculator will figure out what you should 
+            Optimal AirBnB Price Calculator will figure out what you should
             price your rental at to get the best returns!
+
+            Just try our Calculator below!
 
             """
         ),
-        dcc.Link(dbc.Button('Calculator', color='primary'), href='/predictions')
+        dcc.Link(
+            dbc.Button('Calculator', color='primary'), href='/predictions')
     ],
     md=4,
 )

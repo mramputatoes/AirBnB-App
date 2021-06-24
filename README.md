@@ -1,3 +1,7 @@
 # Dash Template
 
-[Instructions](https://lambdaschool.github.io/ds/unit2/dash-template/)
+[Instructions]
+### Clone the repo
+### Enter a Shell
+### run python run.py
+### connect to local host
